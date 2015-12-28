@@ -1,0 +1,66 @@
+
+Options: -C 0.525 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (205.73/2.77)
+physician-fee-freeze = y
+|   synfuels-corporation-cutback = n
+|   |   education-spending = n
+|   |   |   anti-satellite-test-ban = n
+|   |   |   |   duty-free-exports = n: republican (3.4/0.01)
+|   |   |   |   duty-free-exports = y: democrat (2.44/0.43)
+|   |   |   anti-satellite-test-ban = y: republican (10.42/0.36)
+|   |   education-spending = y: republican (99.74/1.29)
+|   synfuels-corporation-cutback = y
+|   |   mx-missile = n
+|   |   |   education-spending = n: democrat (3.67/1.26)
+|   |   |   education-spending = y: republican (17.6/2.0)
+|   |   mx-missile = y: democrat (5.0/1.03)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training split: 0 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         339               97.4138 %
+Incorrectly Classified Instances         9                2.5862 %
+Kappa statistic                          0.945 
+Mean absolute error                      0.0468
+Root mean squared error                  0.1399
+Relative absolute error                  9.9    %
+Root relative squared error             28.7836 %
+Total Number of Instances              348     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 212   3 |   a = democrat
+   6 127 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances          81               93.1034 %
+Incorrectly Classified Instances         6                6.8966 %
+Kappa statistic                          0.8566
+Mean absolute error                      0.0859
+Root mean squared error                  0.2333
+Relative absolute error                 18.0085 %
+Root relative squared error             47.5442 %
+Total Number of Instances               87     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 49  3 |  a = democrat
+  3 32 |  b = republican
+

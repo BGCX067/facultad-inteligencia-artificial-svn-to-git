@@ -1,0 +1,73 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+Saludos = y
+|   PalabrasInvalidas = y
+|   |   HTMLValues = y: spam (2.0)
+|   |   HTMLValues = n: noSpam (3.0/1.0)
+|   PalabrasInvalidas = n: noSpam (94.0/1.0)
+Saludos = n
+|   PalabrasValidas = y
+|   |   HTMLValues = y: spam (4.0/1.0)
+|   |   HTMLValues = n
+|   |   |   CaracteristicaMailNeg = y
+|   |   |   |   PalabrasVentas = y: spam (2.0)
+|   |   |   |   PalabrasVentas = n: noSpam (6.0/1.0)
+|   |   |   CaracteristicaMailNeg = n: noSpam (52.0/1.0)
+|   PalabrasValidas = n
+|   |   PalabrasVentas = y: spam (153.0/14.0)
+|   |   PalabrasVentas = n
+|   |   |   PalabrasInvalidas = y: spam (9.0/1.0)
+|   |   |   PalabrasInvalidas = n
+|   |   |   |   HTMLValues = y: spam (35.0/10.0)
+|   |   |   |   HTMLValues = n: noSpam (76.0/33.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Time taken to build model: 0 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         373               85.5505 %
+Incorrectly Classified Instances        63               14.4495 %
+Kappa statistic                          0.7109
+Mean absolute error                      0.2002
+Root mean squared error                  0.3164
+Relative absolute error                 40.0418 %
+Root relative squared error             63.2786 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 179  37 |   a = spam
+  26 194 |   b = noSpam
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         357               81.8807 %
+Incorrectly Classified Instances        79               18.1193 %
+Kappa statistic                          0.6375
+Mean absolute error                      0.227 
+Root mean squared error                  0.3513
+Relative absolute error                 45.4073 %
+Root relative squared error             70.253  %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 174  42 |   a = spam
+  37 183 |   b = noSpam
+

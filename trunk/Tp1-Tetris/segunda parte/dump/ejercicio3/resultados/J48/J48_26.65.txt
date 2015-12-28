@@ -1,0 +1,71 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (253.41/66.33)
+physician-fee-freeze = y
+|   duty-free-exports = n
+|   |   adoption-of-the-budget-resolution = n: republican (140.75/33.6)
+|   |   adoption-of-the-budget-resolution = y
+|   |   |   superfund-right-to-sue = n: republican (5.55/0.01)
+|   |   |   superfund-right-to-sue = y
+|   |   |   |   anti-satellite-test-ban = n: democrat (7.96/1.33)
+|   |   |   |   anti-satellite-test-ban = y: republican (8.23/2.45)
+|   duty-free-exports = y
+|   |   synfuels-corporation-cutback = n
+|   |   |   handicapped-infants = n
+|   |   |   |   adoption-of-the-budget-resolution = n: democrat (5.81/0.48)
+|   |   |   |   adoption-of-the-budget-resolution = y
+|   |   |   |   |   mx-missile = n: republican (2.09/0.0)
+|   |   |   |   |   mx-missile = y: democrat (3.03/1.02)
+|   |   |   handicapped-infants = y: republican (3.12/0.01)
+|   |   synfuels-corporation-cutback = y: democrat (5.06/0.17)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	19
+
+
+Time taken to build model: 0.14 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         330               75.8621 %
+Incorrectly Classified Instances       105               24.1379 %
+Kappa statistic                          0.5019
+Mean absolute error                      0.3617
+Root mean squared error                  0.4223
+Relative absolute error                 73.2723 %
+Root relative squared error             85.0098 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 207  35 |   a = democrat
+  70 123 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         314               72.1839 %
+Incorrectly Classified Instances       121               27.8161 %
+Kappa statistic                          0.4284
+Mean absolute error                      0.389 
+Root mean squared error                  0.4529
+Relative absolute error                 78.8008 %
+Root relative squared error             91.1578 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 195  47 |   a = democrat
+  74 119 |   b = republican
+

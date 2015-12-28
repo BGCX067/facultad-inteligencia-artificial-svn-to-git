@@ -1,0 +1,81 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n
+|   superfund-right-to-sue = n
+|   |   export-administration-act-south-africa = n: republican (2.99/0.77)
+|   |   export-administration-act-south-africa = y: democrat (185.51/45.88)
+|   superfund-right-to-sue = y
+|   |   water-project-cost-sharing = n: democrat (21.98/5.23)
+|   |   water-project-cost-sharing = y
+|   |   |   aid-to-nicaraguan-contras = n: democrat (15.64/4.65)
+|   |   |   aid-to-nicaraguan-contras = y
+|   |   |   |   education-spending = n: republican (24.88/9.34)
+|   |   |   |   education-spending = y: democrat (2.42/0.4)
+physician-fee-freeze = y
+|   duty-free-exports = n
+|   |   adoption-of-the-budget-resolution = n: republican (140.75/38.24)
+|   |   adoption-of-the-budget-resolution = y
+|   |   |   superfund-right-to-sue = n: republican (5.55/0.01)
+|   |   |   superfund-right-to-sue = y
+|   |   |   |   anti-satellite-test-ban = n: democrat (7.96/1.39)
+|   |   |   |   anti-satellite-test-ban = y: republican (8.23/2.45)
+|   duty-free-exports = y
+|   |   synfuels-corporation-cutback = n
+|   |   |   handicapped-infants = n
+|   |   |   |   adoption-of-the-budget-resolution = n: democrat (5.81/0.48)
+|   |   |   |   adoption-of-the-budget-resolution = y
+|   |   |   |   |   mx-missile = n: republican (2.09/0.0)
+|   |   |   |   |   mx-missile = y: democrat (3.03/1.02)
+|   |   |   handicapped-infants = y: republican (3.12/0.01)
+|   |   synfuels-corporation-cutback = y: democrat (5.06/0.17)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Time taken to build model: 0.23 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         323               74.2529 %
+Incorrectly Classified Instances       112               25.7471 %
+Kappa statistic                          0.4766
+Mean absolute error                      0.3703
+Root mean squared error                  0.4262
+Relative absolute error                 74.7912 %
+Root relative squared error             85.6605 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 190  49 |   a = democrat
+  63 133 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         292               67.1264 %
+Incorrectly Classified Instances       143               32.8736 %
+Kappa statistic                          0.3321
+Mean absolute error                      0.4126
+Root mean squared error                  0.4741
+Relative absolute error                 83.3251 %
+Root relative squared error             95.2909 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 174  65 |   a = democrat
+  78 118 |   b = republican
+

@@ -1,0 +1,48 @@
+
+Options: -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.16 seconds
+Time taken to test model on training data: 0.31 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         406               93.3333 %
+Incorrectly Classified Instances        29                6.6667 %
+Kappa statistic                          0.8633
+Mean absolute error                      0.0989
+Root mean squared error                  0.2224
+Relative absolute error                 20.2547 %
+Root relative squared error             45.0179 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 237  14 |   a = democrat
+  15 169 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         323               74.2529 %
+Incorrectly Classified Instances       112               25.7471 %
+Kappa statistic                          0.471 
+Mean absolute error                      0.2981
+Root mean squared error                  0.4639
+Relative absolute error                 61.0623 %
+Root relative squared error             93.8968 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 197  54 |   a = democrat
+  58 126 |   b = republican
+

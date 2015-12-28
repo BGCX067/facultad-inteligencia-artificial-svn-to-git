@@ -1,0 +1,475 @@
+Empezando...
+
+
+Greedy First Best con heuristica de cuadrados moviles:
+
+
+Ultima pantalla:
+
+
+| - - - - - X X X X X |
+| X X X X X X X X X - |
+| X X X X - X X X X X |
+| X X X X X X - X X X |
+| X X X X X X - X X X |
+| X - - - X - - X X X |
+| X X - - X - - X X X |
+| X X - - X - - X X X |
+| X X - - X - - X - - |
+| - X - - X - - X - - |
+| X X - - X - - X - - |
+| X X - - X X - X - - |
+| - X - - - X - X X - |
+| X X - - X X X X X - |
+| X X - - X - - X X - |
+| X X X - X - - X X X |
+| - X - - X X - X X X |
+| X X X - - X - X - - |
+| - X - - X X X X X - |
+| X X X - X - - X X - |
+
+Piezas: -
+Puntos: 710
+
+
+Acciones:
+
+
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza Z / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza Z / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 9 / Puntos totales: 10 / Lineas totales: 1
+Pieza T / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 10 / Lineas totales: 1
+Pieza I / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 10 / Lineas totales: 1
+Pieza Z / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 20 / Lineas totales: 2
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 20 / Lineas totales: 2
+Pieza L / Rotaciones: 2 / Desplazamiento: 3 / Puntos totales: 20 / Lineas totales: 2
+Pieza Z / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 30 / Lineas totales: 3
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 30 / Lineas totales: 3
+Pieza L / Rotaciones: 3 / Desplazamiento: 1 / Puntos totales: 40 / Lineas totales: 4
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 40 / Lineas totales: 4
+Pieza S / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 40 / Lineas totales: 4
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 40 / Lineas totales: 4
+Pieza I / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 40 / Lineas totales: 4
+Pieza O / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 40 / Lineas totales: 4
+Pieza I / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 40 / Lineas totales: 4
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 50 / Lineas totales: 5
+Pieza T / Rotaciones: 2 / Desplazamiento: 6 / Puntos totales: 60 / Lineas totales: 6
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 60 / Lineas totales: 6
+Pieza I / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 60 / Lineas totales: 6
+Pieza L / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 70 / Lineas totales: 7
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 70 / Lineas totales: 7
+Pieza L / Rotaciones: 2 / Desplazamiento: 1 / Puntos totales: 80 / Lineas totales: 8
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 80 / Lineas totales: 8
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 90 / Lineas totales: 9
+Pieza Z / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 90 / Lineas totales: 9
+Pieza I / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 90 / Lineas totales: 9
+Pieza O / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 90 / Lineas totales: 9
+Pieza T / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 100 / Lineas totales: 10
+Pieza T / Rotaciones: 3 / Desplazamiento: 6 / Puntos totales: 100 / Lineas totales: 10
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 110 / Lineas totales: 11
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 110 / Lineas totales: 11
+Pieza S / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 110 / Lineas totales: 11
+Pieza T / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 120 / Lineas totales: 12
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 120 / Lineas totales: 12
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 120 / Lineas totales: 12
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 130 / Lineas totales: 13
+Pieza I / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 140 / Lineas totales: 14
+Pieza Z / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 140 / Lineas totales: 14
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 140 / Lineas totales: 14
+Pieza T / Rotaciones: 2 / Desplazamiento: 6 / Puntos totales: 140 / Lineas totales: 14
+Pieza T / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 150 / Lineas totales: 15
+Pieza S / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 160 / Lineas totales: 16
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 160 / Lineas totales: 16
+Pieza T / Rotaciones: 2 / Desplazamiento: 6 / Puntos totales: 160 / Lineas totales: 16
+Pieza L / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 160 / Lineas totales: 16
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 160 / Lineas totales: 16
+Pieza L / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 160 / Lineas totales: 16
+Pieza L / Rotaciones: 2 / Desplazamiento: 3 / Puntos totales: 190 / Lineas totales: 18
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 190 / Lineas totales: 18
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 190 / Lineas totales: 18
+Pieza S / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 190 / Lineas totales: 18
+Pieza T / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 190 / Lineas totales: 18
+Pieza Z / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 190 / Lineas totales: 18
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 220 / Lineas totales: 20
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 220 / Lineas totales: 20
+Pieza O / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 220 / Lineas totales: 20
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 230 / Lineas totales: 21
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 230 / Lineas totales: 21
+Pieza Z / Rotaciones: 1 / Desplazamiento: 3 / Puntos totales: 240 / Lineas totales: 22
+Pieza S / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 240 / Lineas totales: 22
+Pieza S / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 250 / Lineas totales: 23
+Pieza S / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 250 / Lineas totales: 23
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 250 / Lineas totales: 23
+Pieza Z / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 250 / Lineas totales: 23
+Pieza Z / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 250 / Lineas totales: 23
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 250 / Lineas totales: 23
+Pieza I / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 250 / Lineas totales: 23
+Pieza T / Rotaciones: 2 / Desplazamiento: 6 / Puntos totales: 280 / Lineas totales: 25
+Pieza S / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 280 / Lineas totales: 25
+Pieza Z / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 280 / Lineas totales: 25
+Pieza Z / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 280 / Lineas totales: 25
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 290 / Lineas totales: 26
+Pieza S / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 300 / Lineas totales: 27
+Pieza S / Rotaciones: 0 / Desplazamiento: 1 / Puntos totales: 300 / Lineas totales: 27
+Pieza T / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 310 / Lineas totales: 28
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 310 / Lineas totales: 28
+Pieza Z / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 310 / Lineas totales: 28
+Pieza S / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 310 / Lineas totales: 28
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 310 / Lineas totales: 28
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 320 / Lineas totales: 29
+Pieza S / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 320 / Lineas totales: 29
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 330 / Lineas totales: 30
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 330 / Lineas totales: 30
+Pieza L / Rotaciones: 3 / Desplazamiento: 2 / Puntos totales: 330 / Lineas totales: 30
+Pieza T / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 340 / Lineas totales: 31
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 350 / Lineas totales: 32
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 350 / Lineas totales: 32
+Pieza Z / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 350 / Lineas totales: 32
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 350 / Lineas totales: 32
+Pieza S / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 350 / Lineas totales: 32
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 360 / Lineas totales: 33
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 370 / Lineas totales: 34
+Pieza S / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 370 / Lineas totales: 34
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 370 / Lineas totales: 34
+Pieza S / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 380 / Lineas totales: 35
+Pieza T / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 380 / Lineas totales: 35
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 390 / Lineas totales: 36
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 390 / Lineas totales: 36
+Pieza T / Rotaciones: 2 / Desplazamiento: 1 / Puntos totales: 390 / Lineas totales: 36
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 400 / Lineas totales: 37
+Pieza T / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 400 / Lineas totales: 37
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 400 / Lineas totales: 37
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 410 / Lineas totales: 38
+Pieza Z / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 420 / Lineas totales: 39
+Pieza L / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 420 / Lineas totales: 39
+Pieza I / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 450 / Lineas totales: 41
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 450 / Lineas totales: 41
+Pieza Z / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 450 / Lineas totales: 41
+Pieza Z / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 450 / Lineas totales: 41
+Pieza T / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 450 / Lineas totales: 41
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 460 / Lineas totales: 42
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 460 / Lineas totales: 42
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 460 / Lineas totales: 42
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 460 / Lineas totales: 42
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 460 / Lineas totales: 42
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 490 / Lineas totales: 44
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 490 / Lineas totales: 44
+Pieza T / Rotaciones: 3 / Desplazamiento: 6 / Puntos totales: 490 / Lineas totales: 44
+Pieza T / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 500 / Lineas totales: 45
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 500 / Lineas totales: 45
+Pieza T / Rotaciones: 3 / Desplazamiento: 2 / Puntos totales: 510 / Lineas totales: 46
+Pieza Z / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 510 / Lineas totales: 46
+Pieza Z / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 510 / Lineas totales: 46
+Pieza I / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 510 / Lineas totales: 46
+Pieza T / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 510 / Lineas totales: 46
+Pieza T / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 520 / Lineas totales: 47
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 530 / Lineas totales: 48
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 530 / Lineas totales: 48
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 530 / Lineas totales: 48
+Pieza T / Rotaciones: 2 / Desplazamiento: 3 / Puntos totales: 530 / Lineas totales: 48
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 530 / Lineas totales: 48
+Pieza L / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 530 / Lineas totales: 48
+Pieza S / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 560 / Lineas totales: 50
+Pieza T / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 560 / Lineas totales: 50
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 560 / Lineas totales: 50
+Pieza Z / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 560 / Lineas totales: 50
+Pieza L / Rotaciones: 3 / Desplazamiento: 1 / Puntos totales: 570 / Lineas totales: 51
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 570 / Lineas totales: 51
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 580 / Lineas totales: 52
+Pieza T / Rotaciones: 2 / Desplazamiento: 2 / Puntos totales: 580 / Lineas totales: 52
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 580 / Lineas totales: 52
+Pieza T / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 590 / Lineas totales: 53
+Pieza Z / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 590 / Lineas totales: 53
+Pieza T / Rotaciones: 2 / Desplazamiento: 6 / Puntos totales: 590 / Lineas totales: 53
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 620 / Lineas totales: 55
+Pieza S / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 620 / Lineas totales: 55
+Pieza L / Rotaciones: 2 / Desplazamiento: 1 / Puntos totales: 620 / Lineas totales: 55
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 620 / Lineas totales: 55
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 630 / Lineas totales: 56
+Pieza Z / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 630 / Lineas totales: 56
+Pieza I / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 640 / Lineas totales: 57
+Pieza T / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 640 / Lineas totales: 57
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 640 / Lineas totales: 57
+Pieza L / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 640 / Lineas totales: 57
+Pieza I / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 640 / Lineas totales: 57
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 670 / Lineas totales: 59
+Pieza O / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 670 / Lineas totales: 59
+Pieza O / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 670 / Lineas totales: 59
+Pieza L / Rotaciones: 2 / Desplazamiento: 7 / Puntos totales: 670 / Lineas totales: 59
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 670 / Lineas totales: 59
+Pieza T / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 680 / Lineas totales: 60
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 680 / Lineas totales: 60
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 680 / Lineas totales: 60
+Pieza I / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 680 / Lineas totales: 60
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 690 / Lineas totales: 61
+Pieza L / Rotaciones: 2 / Desplazamiento: 2 / Puntos totales: 700 / Lineas totales: 62
+Pieza T / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 700 / Lineas totales: 62
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 700 / Lineas totales: 62
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 700 / Lineas totales: 62
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 710 / Lineas totales: 63
+Pieza L / Rotaciones: 2 / Desplazamiento: 7 / Puntos totales: 710 / Lineas totales: 63
+Pieza S / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 710 / Lineas totales: 63
+
+
+Greedy First Best con heuristica de cuadrados no moviles: 
+
+
+Ultima pantalla:
+
+
+| - - X X X X X - - - |
+| - X X X X X X X X - |
+| - - - X X X X X X X |
+| X X X - X X X X X X |
+| X X X X X - X X - X |
+| X X X X X - X X X X |
+| X - X X - - - X X X |
+| X X X X X - - X X X |
+| X - X - X X - X - - |
+| X - X - X X - X - - |
+| X X X - X X X X X - |
+| X X X - X X X X X - |
+| X X X - X X - - - - |
+| X X X - X X - - - - |
+| X X X - X X - - - - |
+| X X X - X X - - - - |
+| - X X - X X X - - - |
+| X X X - X X X X - - |
+| X X X - X X X X - - |
+| X X X X X X X X X - |
+
+Piezas: -
+Puntos: 670
+
+
+Acciones:
+
+
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 0 / Lineas totales: 0
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 0 / Lineas totales: 0
+Pieza S / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 3 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 3 / Desplazamiento: 3 / Puntos totales: 0 / Lineas totales: 0
+Pieza O / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 2 / Desplazamiento: 3 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 0 / Lineas totales: 0
+Pieza Z / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 0 / Lineas totales: 0
+Pieza L / Rotaciones: 3 / Desplazamiento: 5 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 3 / Desplazamiento: 0 / Puntos totales: 0 / Lineas totales: 0
+Pieza Z / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 0 / Lineas totales: 0
+Pieza I / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 0 / Lineas totales: 0
+Pieza T / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 10 / Lineas totales: 1
+Pieza I / Rotaciones: 1 / Desplazamiento: 9 / Puntos totales: 10 / Lineas totales: 1
+Pieza Z / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 10 / Lineas totales: 1
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 10 / Lineas totales: 1
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 20 / Lineas totales: 2
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 20 / Lineas totales: 2
+Pieza S / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 20 / Lineas totales: 2
+Pieza L / Rotaciones: 2 / Desplazamiento: 7 / Puntos totales: 30 / Lineas totales: 3
+Pieza I / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 30 / Lineas totales: 3
+Pieza S / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 30 / Lineas totales: 3
+Pieza I / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 30 / Lineas totales: 3
+Pieza I / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 40 / Lineas totales: 4
+Pieza O / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 40 / Lineas totales: 4
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 40 / Lineas totales: 4
+Pieza L / Rotaciones: 3 / Desplazamiento: 1 / Puntos totales: 50 / Lineas totales: 5
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 50 / Lineas totales: 5
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 50 / Lineas totales: 5
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 50 / Lineas totales: 5
+Pieza L / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 60 / Lineas totales: 6
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 60 / Lineas totales: 6
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 70 / Lineas totales: 7
+Pieza I / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 70 / Lineas totales: 7
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 70 / Lineas totales: 7
+Pieza Z / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 70 / Lineas totales: 7
+Pieza I / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 80 / Lineas totales: 8
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 90 / Lineas totales: 9
+Pieza T / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 90 / Lineas totales: 9
+Pieza T / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 90 / Lineas totales: 9
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 100 / Lineas totales: 10
+Pieza L / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 100 / Lineas totales: 10
+Pieza S / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 110 / Lineas totales: 11
+Pieza T / Rotaciones: 2 / Desplazamiento: 2 / Puntos totales: 110 / Lineas totales: 11
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 110 / Lineas totales: 11
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 110 / Lineas totales: 11
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 110 / Lineas totales: 11
+Pieza I / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 120 / Lineas totales: 12
+Pieza Z / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 130 / Lineas totales: 13
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 130 / Lineas totales: 13
+Pieza T / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 140 / Lineas totales: 14
+Pieza T / Rotaciones: 1 / Desplazamiento: 3 / Puntos totales: 140 / Lineas totales: 14
+Pieza S / Rotaciones: 1 / Desplazamiento: 1 / Puntos totales: 140 / Lineas totales: 14
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 150 / Lineas totales: 15
+Pieza T / Rotaciones: 2 / Desplazamiento: 3 / Puntos totales: 150 / Lineas totales: 15
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 150 / Lineas totales: 15
+Pieza O / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 150 / Lineas totales: 15
+Pieza L / Rotaciones: 2 / Desplazamiento: 7 / Puntos totales: 160 / Lineas totales: 16
+Pieza L / Rotaciones: 2 / Desplazamiento: 2 / Puntos totales: 160 / Lineas totales: 16
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 170 / Lineas totales: 17
+Pieza I / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 200 / Lineas totales: 19
+Pieza S / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 200 / Lineas totales: 19
+Pieza T / Rotaciones: 1 / Desplazamiento: 1 / Puntos totales: 200 / Lineas totales: 19
+Pieza Z / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 200 / Lineas totales: 19
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 200 / Lineas totales: 19
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 200 / Lineas totales: 19
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 200 / Lineas totales: 19
+Pieza L / Rotaciones: 3 / Desplazamiento: 6 / Puntos totales: 210 / Lineas totales: 20
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 220 / Lineas totales: 21
+Pieza Z / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 220 / Lineas totales: 21
+Pieza S / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 220 / Lineas totales: 21
+Pieza S / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 230 / Lineas totales: 22
+Pieza S / Rotaciones: 1 / Desplazamiento: 3 / Puntos totales: 230 / Lineas totales: 22
+Pieza S / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 240 / Lineas totales: 23
+Pieza Z / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 240 / Lineas totales: 23
+Pieza Z / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 240 / Lineas totales: 23
+Pieza I / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 240 / Lineas totales: 23
+Pieza I / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 240 / Lineas totales: 23
+Pieza T / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 250 / Lineas totales: 24
+Pieza S / Rotaciones: 1 / Desplazamiento: 1 / Puntos totales: 250 / Lineas totales: 24
+Pieza Z / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 260 / Lineas totales: 25
+Pieza Z / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 260 / Lineas totales: 25
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 270 / Lineas totales: 26
+Pieza S / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 270 / Lineas totales: 26
+Pieza S / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 270 / Lineas totales: 26
+Pieza T / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 280 / Lineas totales: 27
+Pieza S / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 280 / Lineas totales: 27
+Pieza Z / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 280 / Lineas totales: 27
+Pieza S / Rotaciones: 1 / Desplazamiento: 1 / Puntos totales: 290 / Lineas totales: 28
+Pieza I / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 290 / Lineas totales: 28
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 290 / Lineas totales: 28
+Pieza S / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 290 / Lineas totales: 28
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 320 / Lineas totales: 30
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 320 / Lineas totales: 30
+Pieza L / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 320 / Lineas totales: 30
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 330 / Lineas totales: 31
+Pieza Z / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 330 / Lineas totales: 31
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 330 / Lineas totales: 31
+Pieza Z / Rotaciones: 1 / Desplazamiento: 5 / Puntos totales: 340 / Lineas totales: 32
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 340 / Lineas totales: 32
+Pieza S / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 350 / Lineas totales: 33
+Pieza T / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 350 / Lineas totales: 33
+Pieza S / Rotaciones: 1 / Desplazamiento: 8 / Puntos totales: 360 / Lineas totales: 34
+Pieza S / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 360 / Lineas totales: 34
+Pieza I / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 360 / Lineas totales: 34
+Pieza S / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 360 / Lineas totales: 34
+Pieza T / Rotaciones: 2 / Desplazamiento: 2 / Puntos totales: 360 / Lineas totales: 34
+Pieza Z / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 370 / Lineas totales: 35
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 380 / Lineas totales: 36
+Pieza T / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 380 / Lineas totales: 36
+Pieza T / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 380 / Lineas totales: 36
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 390 / Lineas totales: 37
+Pieza L / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 390 / Lineas totales: 37
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 390 / Lineas totales: 37
+Pieza Z / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 400 / Lineas totales: 38
+Pieza L / Rotaciones: 2 / Desplazamiento: 1 / Puntos totales: 400 / Lineas totales: 38
+Pieza I / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 410 / Lineas totales: 39
+Pieza Z / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 410 / Lineas totales: 39
+Pieza Z / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 420 / Lineas totales: 40
+Pieza Z / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 420 / Lineas totales: 40
+Pieza T / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 420 / Lineas totales: 40
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 420 / Lineas totales: 40
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 430 / Lineas totales: 41
+Pieza L / Rotaciones: 3 / Desplazamiento: 1 / Puntos totales: 440 / Lineas totales: 42
+Pieza L / Rotaciones: 3 / Desplazamiento: 2 / Puntos totales: 440 / Lineas totales: 42
+Pieza O / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 450 / Lineas totales: 43
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 450 / Lineas totales: 43
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 450 / Lineas totales: 43
+Pieza T / Rotaciones: 1 / Desplazamiento: 7 / Puntos totales: 460 / Lineas totales: 44
+Pieza T / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 460 / Lineas totales: 44
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 470 / Lineas totales: 45
+Pieza T / Rotaciones: 3 / Desplazamiento: 7 / Puntos totales: 470 / Lineas totales: 45
+Pieza Z / Rotaciones: 0 / Desplazamiento: 1 / Puntos totales: 480 / Lineas totales: 46
+Pieza Z / Rotaciones: 1 / Desplazamiento: 4 / Puntos totales: 480 / Lineas totales: 46
+Pieza I / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 490 / Lineas totales: 47
+Pieza T / Rotaciones: 0 / Desplazamiento: 1 / Puntos totales: 490 / Lineas totales: 47
+Pieza T / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 490 / Lineas totales: 47
+Pieza Z / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 490 / Lineas totales: 47
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 490 / Lineas totales: 47
+Pieza T / Rotaciones: 2 / Desplazamiento: 6 / Puntos totales: 490 / Lineas totales: 47
+Pieza T / Rotaciones: 3 / Desplazamiento: 3 / Puntos totales: 520 / Lineas totales: 49
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 520 / Lineas totales: 49
+Pieza L / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 520 / Lineas totales: 49
+Pieza S / Rotaciones: 1 / Desplazamiento: 2 / Puntos totales: 520 / Lineas totales: 49
+Pieza T / Rotaciones: 2 / Desplazamiento: 3 / Puntos totales: 520 / Lineas totales: 49
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 520 / Lineas totales: 49
+Pieza Z / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 530 / Lineas totales: 50
+Pieza L / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 540 / Lineas totales: 51
+Pieza S / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 540 / Lineas totales: 51
+Pieza L / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 540 / Lineas totales: 51
+Pieza T / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 570 / Lineas totales: 53
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 570 / Lineas totales: 53
+Pieza T / Rotaciones: 1 / Desplazamiento: 0 / Puntos totales: 570 / Lineas totales: 53
+Pieza Z / Rotaciones: 0 / Desplazamiento: 1 / Puntos totales: 570 / Lineas totales: 53
+Pieza T / Rotaciones: 3 / Desplazamiento: 4 / Puntos totales: 570 / Lineas totales: 53
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 580 / Lineas totales: 54
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 580 / Lineas totales: 54
+Pieza L / Rotaciones: 3 / Desplazamiento: 2 / Puntos totales: 590 / Lineas totales: 55
+Pieza O / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 590 / Lineas totales: 55
+Pieza S / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 590 / Lineas totales: 55
+Pieza Z / Rotaciones: 1 / Desplazamiento: 6 / Puntos totales: 600 / Lineas totales: 56
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 600 / Lineas totales: 56
+Pieza T / Rotaciones: 3 / Desplazamiento: 8 / Puntos totales: 600 / Lineas totales: 56
+Pieza O / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 600 / Lineas totales: 56
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 610 / Lineas totales: 57
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 610 / Lineas totales: 57
+Pieza S / Rotaciones: 0 / Desplazamiento: 7 / Puntos totales: 620 / Lineas totales: 58
+Pieza O / Rotaciones: 0 / Desplazamiento: 6 / Puntos totales: 620 / Lineas totales: 58
+Pieza O / Rotaciones: 0 / Desplazamiento: 4 / Puntos totales: 630 / Lineas totales: 59
+Pieza L / Rotaciones: 2 / Desplazamiento: 0 / Puntos totales: 630 / Lineas totales: 59
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 630 / Lineas totales: 59
+Pieza T / Rotaciones: 0 / Desplazamiento: 1 / Puntos totales: 640 / Lineas totales: 60
+Pieza O / Rotaciones: 0 / Desplazamiento: 3 / Puntos totales: 640 / Lineas totales: 60
+Pieza I / Rotaciones: 0 / Desplazamiento: 2 / Puntos totales: 640 / Lineas totales: 60
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 640 / Lineas totales: 60
+Pieza I / Rotaciones: 0 / Desplazamiento: 0 / Puntos totales: 640 / Lineas totales: 60
+Pieza L / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 650 / Lineas totales: 61
+Pieza T / Rotaciones: 2 / Desplazamiento: 5 / Puntos totales: 650 / Lineas totales: 61
+Pieza O / Rotaciones: 0 / Desplazamiento: 8 / Puntos totales: 660 / Lineas totales: 62
+Pieza I / Rotaciones: 0 / Desplazamiento: 5 / Puntos totales: 660 / Lineas totales: 62
+Pieza S / Rotaciones: 1 / Desplazamiento: 3 / Puntos totales: 670 / Lineas totales: 63
+Pieza L / Rotaciones: 2 / Desplazamiento: 4 / Puntos totales: 670 / Lineas totales: 63
+Pieza S / Rotaciones: 0 / Desplazamiento: 1 / Puntos totales: 670 / Lineas totales: 63
+
+Terminado!

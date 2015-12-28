@@ -1,0 +1,65 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (253.41/24.75)
+physician-fee-freeze = y
+|   adoption-of-the-budget-resolution = n
+|   |   el-salvador-aid = n
+|   |   |   synfuels-corporation-cutback = n: republican (2.58/0.19)
+|   |   |   synfuels-corporation-cutback = y: democrat (2.18/0.01)
+|   |   el-salvador-aid = y: republican (144.95/14.49)
+|   adoption-of-the-budget-resolution = y
+|   |   anti-satellite-test-ban = n
+|   |   |   water-project-cost-sharing = n: republican (4.43/1.01)
+|   |   |   water-project-cost-sharing = y: democrat (9.42/0.89)
+|   |   anti-satellite-test-ban = y: republican (18.03/2.95)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Time taken to build model: 0.2 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         391               89.8851 %
+Incorrectly Classified Instances        44               10.1149 %
+Kappa statistic                          0.7886
+Mean absolute error                      0.1821
+Root mean squared error                  0.2964
+Relative absolute error                 37.7307 %
+Root relative squared error             60.328  %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 241  17 |   a = democrat
+  27 150 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         383               88.046  %
+Incorrectly Classified Instances        52               11.954  %
+Kappa statistic                          0.7497
+Mean absolute error                      0.2019
+Root mean squared error                  0.325 
+Relative absolute error                 41.8195 %
+Root relative squared error             66.1597 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 238  20 |   a = democrat
+  32 145 |   b = republican
+

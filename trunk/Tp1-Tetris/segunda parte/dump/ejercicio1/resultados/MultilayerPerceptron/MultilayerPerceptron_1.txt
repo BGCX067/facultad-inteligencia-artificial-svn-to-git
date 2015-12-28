@@ -1,0 +1,78 @@
+
+Options: -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 1 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -4.019548732272116
+    Node 2    9.588663774470817
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    4.0195500927211905
+    Node 2    -9.58866835400538
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    3.9595578814355172
+    Attrib handicapped-infants    3.1722713000563845
+    Attrib water-project-cost-sharing    2.4818563600832753
+    Attrib adoption-of-the-budget-resolution    5.062910918903807
+    Attrib physician-fee-freeze    -12.583917507342548
+    Attrib el-salvador-aid    -0.8815978865771216
+    Attrib religious-groups-in-schools    2.8757509402519794
+    Attrib anti-satellite-test-ban    -1.6662232311376513
+    Attrib aid-to-nicaraguan-contras    -1.045546727886309
+    Attrib mx-missile    2.5450529429077466
+    Attrib immigration    -1.40819561184877
+    Attrib synfuels-corporation-cutback    1.3933327160927833
+    Attrib education-spending    -0.34116133430874
+    Attrib superfund-right-to-sue    5.555939982259328
+    Attrib crime    -2.2173263549124624
+    Attrib duty-free-exports    -0.28535028136130386
+    Attrib export-administration-act-south-africa    -2.5923682483323267
+Class democrat
+    Input
+    Node 0
+Class republican
+    Input
+    Node 1
+
+
+Time taken to build model: 0.78 seconds
+Time taken to test model on training split: 0.02 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         343               98.5632 %
+Incorrectly Classified Instances         5                1.4368 %
+Kappa statistic                          0.9696
+Mean absolute error                      0.0249
+Root mean squared error                  0.1194
+Relative absolute error                  5.2761 %
+Root relative squared error             24.5648 %
+Total Number of Instances              348     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 212   3 |   a = democrat
+   2 131 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances          84               96.5517 %
+Incorrectly Classified Instances         3                3.4483 %
+Kappa statistic                          0.928 
+Mean absolute error                      0.0493
+Root mean squared error                  0.1892
+Relative absolute error                 10.3397 %
+Root relative squared error             38.5492 %
+Total Number of Instances               87     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51  1 |  a = democrat
+  2 33 |  b = republican
+

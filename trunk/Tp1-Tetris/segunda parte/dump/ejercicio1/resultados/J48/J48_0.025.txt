@@ -1,0 +1,54 @@
+
+Options: -C 0.025 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (205.73/2.77)
+physician-fee-freeze = y: republican (142.27/12.04)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training split: 0.02 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         334               95.977  %
+Incorrectly Classified Instances        14                4.023  %
+Kappa statistic                          0.9155
+Mean absolute error                      0.0791
+Root mean squared error                  0.1871
+Relative absolute error                 16.741  %
+Root relative squared error             38.5133 %
+Total Number of Instances              348     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 205  10 |   a = democrat
+   4 129 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances          82               94.2529 %
+Incorrectly Classified Instances         5                5.7471 %
+Kappa statistic                          0.8821
+Mean absolute error                      0.1067
+Root mean squared error                  0.2401
+Relative absolute error                 22.3554 %
+Root relative squared error             48.922  %
+Total Number of Instances               87     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 48  4 |  a = democrat
+  1 34 |  b = republican
+

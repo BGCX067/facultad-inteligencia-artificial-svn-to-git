@@ -1,0 +1,65 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (253.41/51.33)
+physician-fee-freeze = y
+|   adoption-of-the-budget-resolution = n
+|   |   duty-free-exports = n: republican (141.09/26.78)
+|   |   duty-free-exports = y
+|   |   |   anti-satellite-test-ban = n: democrat (3.35/0.32)
+|   |   |   anti-satellite-test-ban = y: republican (5.28/2.05)
+|   adoption-of-the-budget-resolution = y
+|   |   anti-satellite-test-ban = n
+|   |   |   superfund-right-to-sue = n: republican (2.63/0.61)
+|   |   |   superfund-right-to-sue = y: democrat (11.22/1.72)
+|   |   anti-satellite-test-ban = y: republican (18.03/3.95)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Time taken to build model: 0.14 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         350               80.4598 %
+Incorrectly Classified Instances        85               19.5402 %
+Kappa statistic                          0.5952
+Mean absolute error                      0.3181
+Root mean squared error                  0.3956
+Relative absolute error                 64.882  %
+Root relative squared error             79.9111 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 217  31 |   a = democrat
+  54 133 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         336               77.2414 %
+Incorrectly Classified Instances        99               22.7586 %
+Kappa statistic                          0.5292
+Mean absolute error                      0.3399
+Root mean squared error                  0.426 
+Relative absolute error                 69.3309 %
+Root relative squared error             86.0558 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 209  39 |   a = democrat
+  60 127 |   b = republican
+

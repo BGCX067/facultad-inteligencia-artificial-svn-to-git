@@ -1,0 +1,129 @@
+
+Naive Bayes Classifier
+
+                                              Class
+Attribute                                  democrat republican
+                                             (0.62)     (0.38)
+===============================================================
+handicapped-infants
+  n                                             32.0       46.0
+  y                                             56.0       10.0
+  [total]                                       88.0       56.0
+
+water-project-cost-sharing
+  n                                             41.0       29.0
+  y                                             42.0       22.0
+  [total]                                       83.0       51.0
+
+adoption-of-the-budget-resolution
+  n                                             10.0       45.0
+  y                                             78.0       10.0
+  [total]                                       88.0       55.0
+
+physician-fee-freeze
+  n                                             83.0        2.0
+  y                                              5.0       53.0
+  [total]                                       88.0       55.0
+
+el-salvador-aid
+  n                                             68.0        3.0
+  y                                             20.0       52.0
+  [total]                                       88.0       55.0
+
+religious-groups-in-schools
+  n                                             43.0        5.0
+  y                                             46.0       50.0
+  [total]                                       89.0       55.0
+
+anti-satellite-test-ban
+  n                                             21.0       37.0
+  y                                             68.0       18.0
+  [total]                                       89.0       55.0
+
+aid-to-nicaraguan-contras
+  n                                             17.0       40.0
+  y                                             71.0       14.0
+  [total]                                       88.0       54.0
+
+mx-missile
+  n                                             21.0       48.0
+  y                                             63.0        7.0
+  [total]                                       84.0       55.0
+
+immigration
+  n                                             52.0       24.0
+  y                                             38.0       31.0
+  [total]                                       90.0       55.0
+
+synfuels-corporation-cutback
+  n                                             42.0       49.0
+  y                                             46.0        6.0
+  [total]                                       88.0       55.0
+
+education-spending
+  n                                             71.0       10.0
+  y                                             13.0       44.0
+  [total]                                       84.0       54.0
+
+superfund-right-to-sue
+  n                                             63.0        9.0
+  y                                             25.0       42.0
+  [total]                                       88.0       51.0
+
+crime
+  n                                             58.0        1.0
+  y                                             30.0       53.0
+  [total]                                       88.0       54.0
+
+duty-free-exports
+  n                                             37.0       42.0
+  y                                             48.0        8.0
+  [total]                                       85.0       50.0
+
+export-administration-act-south-africa
+  n                                              4.0       15.0
+  y                                             55.0       32.0
+  [total]                                       59.0       47.0
+
+
+
+Time taken to build model: 0 seconds
+Time taken to test model on training split: 0 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         131               91.6084 %
+Incorrectly Classified Instances        12                8.3916 %
+Kappa statistic                          0.8265
+Mean absolute error                      0.0898
+Root mean squared error                  0.279 
+Relative absolute error                 19.0859 %
+Root relative squared error             57.5413 %
+Total Number of Instances              143     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 79 10 |  a = democrat
+  2 52 |  b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances         263               90.0685 %
+Incorrectly Classified Instances        29                9.9315 %
+Kappa statistic                          0.7955
+Mean absolute error                      0.0942
+Root mean squared error                  0.2913
+Relative absolute error                 19.8931 %
+Root relative squared error             59.7051 %
+Total Number of Instances              292     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 157  21 |   a = democrat
+   8 106 |   b = republican
+

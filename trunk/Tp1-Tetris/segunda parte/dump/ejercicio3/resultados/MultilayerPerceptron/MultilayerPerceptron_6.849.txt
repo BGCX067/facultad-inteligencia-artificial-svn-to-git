@@ -1,0 +1,247 @@
+
+Options: -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -4.452586853255935
+    Node 2    3.1814243519026078
+    Node 3    5.408420610315445
+    Node 4    -4.921055638173969
+    Node 5    3.868263289376492
+    Node 6    -7.3962388093445215
+    Node 7    5.316186981477635
+    Node 8    6.161258946496663
+    Node 9    3.9965951009115153
+    Node 10    5.701552796240926
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    4.454084390584288
+    Node 2    -3.1812736195760927
+    Node 3    -5.408540349362723
+    Node 4    4.921283866843725
+    Node 5    -3.867970154411998
+    Node 6    7.394409937099238
+    Node 7    -5.316545402315463
+    Node 8    -6.161029707370534
+    Node 9    -3.997034178570467
+    Node 10    -5.701381682486369
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.8991240419538783
+    Attrib handicapped-infants    3.079075505021392
+    Attrib water-project-cost-sharing    2.9951642443648914
+    Attrib adoption-of-the-budget-resolution    1.0582842017139882
+    Attrib physician-fee-freeze    -2.146083621626865
+    Attrib el-salvador-aid    0.2259816796800874
+    Attrib religious-groups-in-schools    -0.8166656550979817
+    Attrib anti-satellite-test-ban    -2.460641620271756
+    Attrib aid-to-nicaraguan-contras    -1.4171518989212004
+    Attrib mx-missile    3.3575501902470752
+    Attrib immigration    -2.42082031681496
+    Attrib synfuels-corporation-cutback    1.7889924313813108
+    Attrib education-spending    -1.5454865557585507
+    Attrib superfund-right-to-sue    -3.239860514312971
+    Attrib crime    1.2047232561476064
+    Attrib duty-free-exports    1.2040815587707352
+    Attrib export-administration-act-south-africa    0.3641270389136534
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    1.8952958520206113
+    Attrib handicapped-infants    2.0432124018779123
+    Attrib water-project-cost-sharing    5.542633655719921
+    Attrib adoption-of-the-budget-resolution    3.1789769244317236
+    Attrib physician-fee-freeze    -2.1329980348788156
+    Attrib el-salvador-aid    -1.4919189499107046
+    Attrib religious-groups-in-schools    2.0626402652768183
+    Attrib anti-satellite-test-ban    -2.46567234148868
+    Attrib aid-to-nicaraguan-contras    2.3393420471615305
+    Attrib mx-missile    2.393199074730035
+    Attrib immigration    -1.9640950305360905
+    Attrib synfuels-corporation-cutback    -3.6890530590204635
+    Attrib education-spending    -0.07843773113973218
+    Attrib superfund-right-to-sue    -0.9666981821720623
+    Attrib crime    -3.5534534437636247
+    Attrib duty-free-exports    1.4168644240928074
+    Attrib export-administration-act-south-africa    0.16775172266024038
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.7664795255651975
+    Attrib handicapped-infants    -1.554404996590601
+    Attrib water-project-cost-sharing    1.4095988741952414
+    Attrib adoption-of-the-budget-resolution    1.1877511579840312
+    Attrib physician-fee-freeze    4.621913437959398
+    Attrib el-salvador-aid    0.11708529486055724
+    Attrib religious-groups-in-schools    -0.16762707122384324
+    Attrib anti-satellite-test-ban    -2.584745784208922
+    Attrib aid-to-nicaraguan-contras    2.8369647871586934
+    Attrib mx-missile    0.006598880563325652
+    Attrib immigration    1.964248313063491
+    Attrib synfuels-corporation-cutback    0.26974278303989757
+    Attrib education-spending    1.9215354643984706
+    Attrib superfund-right-to-sue    -0.8371998886649279
+    Attrib crime    -0.3194768686900737
+    Attrib duty-free-exports    -0.1782938717648609
+    Attrib export-administration-act-south-africa    -2.4958220428511884
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.0681544352683452
+    Attrib handicapped-infants    -2.669569928802272
+    Attrib water-project-cost-sharing    -0.7525685936909859
+    Attrib adoption-of-the-budget-resolution    -4.460803877187045
+    Attrib physician-fee-freeze    1.1393470082830857
+    Attrib el-salvador-aid    0.28794461526830983
+    Attrib religious-groups-in-schools    0.36295898095805135
+    Attrib anti-satellite-test-ban    3.062851605286844
+    Attrib aid-to-nicaraguan-contras    -1.1870653479310567
+    Attrib mx-missile    0.10331702571591694
+    Attrib immigration    2.3393861250644603
+    Attrib synfuels-corporation-cutback    -0.5111066893640603
+    Attrib education-spending    -4.647577293267542
+    Attrib superfund-right-to-sue    -3.7378167706002023
+    Attrib crime    -1.5086399821991268
+    Attrib duty-free-exports    3.8135587180443844
+    Attrib export-administration-act-south-africa    0.23973179885179494
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    4.240728227787875
+    Attrib handicapped-infants    0.6308859410273364
+    Attrib water-project-cost-sharing    2.0245768913323894
+    Attrib adoption-of-the-budget-resolution    -1.475518927516906
+    Attrib physician-fee-freeze    4.900235409988994
+    Attrib el-salvador-aid    1.8696803835327238
+    Attrib religious-groups-in-schools    -2.5233979851173043
+    Attrib anti-satellite-test-ban    -1.3849443737917608
+    Attrib aid-to-nicaraguan-contras    -1.196327331548933
+    Attrib mx-missile    -0.32660745024594795
+    Attrib immigration    -3.968737316618475
+    Attrib synfuels-corporation-cutback    -2.9899732697726327
+    Attrib education-spending    0.3249113028366341
+    Attrib superfund-right-to-sue    -4.6158419525147325
+    Attrib crime    0.5562038150434372
+    Attrib duty-free-exports    -0.9373925032265463
+    Attrib export-administration-act-south-africa    1.345230106280194
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.23043648758472343
+    Attrib handicapped-infants    -2.9079043437330054
+    Attrib water-project-cost-sharing    1.160617259217772
+    Attrib adoption-of-the-budget-resolution    0.8100525720870289
+    Attrib physician-fee-freeze    -2.568187842766221
+    Attrib el-salvador-aid    0.7442512429270378
+    Attrib religious-groups-in-schools    0.15335011168692442
+    Attrib anti-satellite-test-ban    0.08535841669930747
+    Attrib aid-to-nicaraguan-contras    -1.127752188509262
+    Attrib mx-missile    2.395749144438339
+    Attrib immigration    3.1601409614475746
+    Attrib synfuels-corporation-cutback    0.35187136030067767
+    Attrib education-spending    3.0687576256661178
+    Attrib superfund-right-to-sue    -0.3325942273506629
+    Attrib crime    1.6482823829785989
+    Attrib duty-free-exports    0.6184610546981297
+    Attrib export-administration-act-south-africa    -1.7350274363508587
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    1.3070849244235923
+    Attrib handicapped-infants    1.264800684829023
+    Attrib water-project-cost-sharing    1.207745476061551
+    Attrib adoption-of-the-budget-resolution    -2.1187660023076504
+    Attrib physician-fee-freeze    2.142786442744014
+    Attrib el-salvador-aid    -0.947442119650944
+    Attrib religious-groups-in-schools    0.9239634340770246
+    Attrib anti-satellite-test-ban    -0.5020047737058503
+    Attrib aid-to-nicaraguan-contras    -1.140450056142017
+    Attrib mx-missile    -0.9116740400445276
+    Attrib immigration    0.3258838965588303
+    Attrib synfuels-corporation-cutback    1.0510230448421067
+    Attrib education-spending    2.80420641100756
+    Attrib superfund-right-to-sue    -1.1639293318013697
+    Attrib crime    -1.5252379596672485
+    Attrib duty-free-exports    -0.6539554815797323
+    Attrib export-administration-act-south-africa    -1.5039699473149175
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -3.8272701010015604
+    Attrib handicapped-infants    -0.9326090272038442
+    Attrib water-project-cost-sharing    0.18274829463184228
+    Attrib adoption-of-the-budget-resolution    0.49259761119841416
+    Attrib physician-fee-freeze    -1.4871226667475623
+    Attrib el-salvador-aid    0.2706891016870677
+    Attrib religious-groups-in-schools    1.0071592118116215
+    Attrib anti-satellite-test-ban    -1.371815473741011
+    Attrib aid-to-nicaraguan-contras    0.3692009120753112
+    Attrib mx-missile    -1.3768874834060687
+    Attrib immigration    1.5395174171193078
+    Attrib synfuels-corporation-cutback    0.39930371451764507
+    Attrib education-spending    1.1052742018484911
+    Attrib superfund-right-to-sue    -1.2904738108566296
+    Attrib crime    -2.0089642821230353
+    Attrib duty-free-exports    2.9288132865162266
+    Attrib export-administration-act-south-africa    -1.9651648202149692
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -4.003849699231093
+    Attrib handicapped-infants    1.2529118030226047
+    Attrib water-project-cost-sharing    0.31429369910605526
+    Attrib adoption-of-the-budget-resolution    7.08344031983389
+    Attrib physician-fee-freeze    -2.220553371362319
+    Attrib el-salvador-aid    0.07686453426617434
+    Attrib religious-groups-in-schools    2.2175836066875423
+    Attrib anti-satellite-test-ban    -3.027133735458651
+    Attrib aid-to-nicaraguan-contras    -1.5574176364244832
+    Attrib mx-missile    -0.45114011859694825
+    Attrib immigration    -1.1777515530570493
+    Attrib synfuels-corporation-cutback    0.45326416507954786
+    Attrib education-spending    -1.7880350961902614
+    Attrib superfund-right-to-sue    -2.2074975851397918
+    Attrib crime    1.3155466700279355
+    Attrib duty-free-exports    -3.412469760241624
+    Attrib export-administration-act-south-africa    -3.814824146142847
+Class democrat
+    Input
+    Node 0
+Class republican
+    Input
+    Node 1
+
+
+Time taken to build model: 3.7 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         424               97.4713 %
+Incorrectly Classified Instances        11                2.5287 %
+Kappa statistic                          0.947 
+Mean absolute error                      0.0451
+Root mean squared error                  0.1464
+Relative absolute error                  9.3995 %
+Root relative squared error             29.8903 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 259   2 |   a = democrat
+   9 165 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         385               88.5057 %
+Incorrectly Classified Instances        50               11.4943 %
+Kappa statistic                          0.7587
+Mean absolute error                      0.1293
+Root mean squared error                  0.3225
+Relative absolute error                 26.9333 %
+Root relative squared error             65.8353 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 240  21 |   a = democrat
+  29 145 |   b = republican
+

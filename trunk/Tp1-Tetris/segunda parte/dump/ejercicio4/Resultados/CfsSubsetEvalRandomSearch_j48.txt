@@ -1,0 +1,75 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+Imagen = y: spam (93.0/3.0)
+Imagen = n
+|   Saludos = y
+|   |   PalabrasInvalidas = y
+|   |   |   HTMLValues = y: spam (2.0)
+|   |   |   HTMLValues = n: noSpam (3.0/1.0)
+|   |   PalabrasInvalidas = n: noSpam (94.0/1.0)
+|   Saludos = n
+|   |   PalabrasValidas = y
+|   |   |   CaracteristicaMailNeg = y
+|   |   |   |   PalabrasVentas = y: spam (2.0)
+|   |   |   |   PalabrasVentas = n: noSpam (6.0/1.0)
+|   |   |   CaracteristicaMailNeg = n: noSpam (53.0/1.0)
+|   |   PalabrasValidas = n
+|   |   |   PalabrasVentas = y: spam (84.0/13.0)
+|   |   |   PalabrasVentas = n
+|   |   |   |   PalabrasInvalidas = y: spam (7.0/1.0)
+|   |   |   |   PalabrasInvalidas = n
+|   |   |   |   |   AttachmentExt = y: spam (5.0/1.0)
+|   |   |   |   |   AttachmentExt = n
+|   |   |   |   |   |   CaracteristicaMailNeg = y: spam (18.0/8.0)
+|   |   |   |   |   |   CaracteristicaMailNeg = n: noSpam (69.0/27.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+Time taken to build model: 0 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         379               86.9266 %
+Incorrectly Classified Instances        57               13.0734 %
+Kappa statistic                          0.7385
+Mean absolute error                      0.183 
+Root mean squared error                  0.3025
+Relative absolute error                 36.6069 %
+Root relative squared error             60.5037 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 185  31 |   a = spam
+  26 194 |   b = noSpam
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         361               82.7982 %
+Incorrectly Classified Instances        75               17.2018 %
+Kappa statistic                          0.6557
+Mean absolute error                      0.2105
+Root mean squared error                  0.3421
+Relative absolute error                 42.0974 %
+Root relative squared error             68.4262 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 172  44 |   a = spam
+  31 189 |   b = noSpam
+

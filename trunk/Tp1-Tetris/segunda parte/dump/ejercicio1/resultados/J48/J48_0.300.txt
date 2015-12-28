@@ -1,0 +1,60 @@
+
+Options: -C 0.300 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (205.73/2.77)
+physician-fee-freeze = y
+|   synfuels-corporation-cutback = n: republican (116.0/3.67)
+|   synfuels-corporation-cutback = y
+|   |   mx-missile = n
+|   |   |   education-spending = n: democrat (3.67/1.26)
+|   |   |   education-spending = y: republican (17.6/2.0)
+|   |   mx-missile = y: democrat (5.0/1.03)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training split: 0 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         337               96.8391 %
+Incorrectly Classified Instances        11                3.1609 %
+Kappa statistic                          0.933 
+Mean absolute error                      0.0558
+Root mean squared error                  0.1568
+Relative absolute error                 11.8041 %
+Root relative squared error             32.2775 %
+Total Number of Instances              348     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 210   5 |   a = democrat
+   6 127 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances          82               94.2529 %
+Incorrectly Classified Instances         5                5.7471 %
+Kappa statistic                          0.8811
+Mean absolute error                      0.0842
+Root mean squared error                  0.2184
+Relative absolute error                 17.6379 %
+Root relative squared error             44.4946 %
+Total Number of Instances               87     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 49  3 |  a = democrat
+  2 33 |  b = republican
+

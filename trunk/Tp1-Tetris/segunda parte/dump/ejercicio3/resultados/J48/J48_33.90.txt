@@ -1,0 +1,87 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n
+|   superfund-right-to-sue = n
+|   |   export-administration-act-south-africa = n: republican (2.99/0.72)
+|   |   export-administration-act-south-africa = y: democrat (185.51/51.84)
+|   superfund-right-to-sue = y
+|   |   water-project-cost-sharing = n
+|   |   |   mx-missile = n
+|   |   |   |   adoption-of-the-budget-resolution = n: republican (2.32/0.01)
+|   |   |   |   adoption-of-the-budget-resolution = y: democrat (5.27/1.71)
+|   |   |   mx-missile = y: democrat (14.39/3.21)
+|   |   water-project-cost-sharing = y
+|   |   |   aid-to-nicaraguan-contras = n: democrat (15.64/4.65)
+|   |   |   aid-to-nicaraguan-contras = y: republican (27.29/9.36)
+physician-fee-freeze = y
+|   duty-free-exports = n
+|   |   synfuels-corporation-cutback = n: republican (131.71/39.14)
+|   |   synfuels-corporation-cutback = y
+|   |   |   religious-groups-in-schools = n: republican (2.2/0.01)
+|   |   |   religious-groups-in-schools = y
+|   |   |   |   anti-satellite-test-ban = n
+|   |   |   |   |   superfund-right-to-sue = n: democrat (2.11/0.11)
+|   |   |   |   |   superfund-right-to-sue = y
+|   |   |   |   |   |   adoption-of-the-budget-resolution = n: republican (19.06/5.03)
+|   |   |   |   |   |   adoption-of-the-budget-resolution = y: democrat (4.72/1.09)
+|   |   |   |   anti-satellite-test-ban = y: democrat (2.68/0.22)
+|   duty-free-exports = y
+|   |   synfuels-corporation-cutback = n
+|   |   |   handicapped-infants = n
+|   |   |   |   adoption-of-the-budget-resolution = n: democrat (5.81/0.48)
+|   |   |   |   adoption-of-the-budget-resolution = y
+|   |   |   |   |   mx-missile = n: republican (2.09/0.0)
+|   |   |   |   |   mx-missile = y: democrat (3.03/1.02)
+|   |   |   handicapped-infants = y: republican (3.12/0.01)
+|   |   synfuels-corporation-cutback = y: democrat (5.06/0.17)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	35
+
+
+Time taken to build model: 0.22 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         318               73.1034 %
+Incorrectly Classified Instances       117               26.8966 %
+Kappa statistic                          0.4569
+Mean absolute error                      0.3891
+Root mean squared error                  0.4371
+Relative absolute error                 78.2651 %
+Root relative squared error             87.6628 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 181  53 |   a = democrat
+  64 137 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         280               64.3678 %
+Incorrectly Classified Instances       155               35.6322 %
+Kappa statistic                          0.2815
+Mean absolute error                      0.4403
+Root mean squared error                  0.4881
+Relative absolute error                 88.5616 %
+Root relative squared error             97.8908 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 160  74 |   a = democrat
+  81 120 |   b = republican
+

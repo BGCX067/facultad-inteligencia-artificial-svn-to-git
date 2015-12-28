@@ -1,0 +1,67 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (253.41/53.33)
+physician-fee-freeze = y
+|   duty-free-exports = n
+|   |   adoption-of-the-budget-resolution = n
+|   |   |   handicapped-infants = n: republican (117.4/19.47)
+|   |   |   handicapped-infants = y
+|   |   |   |   mx-missile = n: republican (20.3/5.41)
+|   |   |   |   mx-missile = y: democrat (3.05/0.11)
+|   |   adoption-of-the-budget-resolution = y
+|   |   |   anti-satellite-test-ban = n: democrat (9.22/1.59)
+|   |   |   anti-satellite-test-ban = y: republican (12.52/2.46)
+|   duty-free-exports = y
+|   |   handicapped-infants = n: democrat (14.52/4.96)
+|   |   handicapped-infants = y: republican (4.59/0.47)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Time taken to build model: 0.13 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         349               80.2299 %
+Incorrectly Classified Instances        86               19.7701 %
+Kappa statistic                          0.5874
+Mean absolute error                      0.3191
+Root mean squared error                  0.3967
+Relative absolute error                 65.0943 %
+Root relative squared error             80.1227 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 222  26 |   a = democrat
+  60 127 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         330               75.8621 %
+Incorrectly Classified Instances       105               24.1379 %
+Kappa statistic                          0.5007
+Mean absolute error                      0.3484
+Root mean squared error                  0.4291
+Relative absolute error                 71.0718 %
+Root relative squared error             86.6812 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 206  42 |   a = democrat
+  63 124 |   b = republican
+

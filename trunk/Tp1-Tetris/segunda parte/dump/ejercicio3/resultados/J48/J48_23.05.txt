@@ -1,0 +1,79 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (253.41/60.33)
+physician-fee-freeze = y
+|   duty-free-exports = n
+|   |   adoption-of-the-budget-resolution = n
+|   |   |   handicapped-infants = n
+|   |   |   |   mx-missile = n
+|   |   |   |   |   anti-satellite-test-ban = n: republican (104.43/18.09)
+|   |   |   |   |   anti-satellite-test-ban = y: democrat (5.09/1.15)
+|   |   |   |   mx-missile = y: republican (7.87/0.32)
+|   |   |   handicapped-infants = y
+|   |   |   |   mx-missile = n: republican (20.3/5.41)
+|   |   |   |   mx-missile = y: democrat (3.05/0.11)
+|   |   adoption-of-the-budget-resolution = y
+|   |   |   superfund-right-to-sue = n: republican (5.55/0.01)
+|   |   |   superfund-right-to-sue = y
+|   |   |   |   anti-satellite-test-ban = n: democrat (7.96/1.33)
+|   |   |   |   anti-satellite-test-ban = y: republican (8.23/2.45)
+|   duty-free-exports = y
+|   |   synfuels-corporation-cutback = n
+|   |   |   handicapped-infants = n
+|   |   |   |   adoption-of-the-budget-resolution = n: democrat (5.81/0.58)
+|   |   |   |   adoption-of-the-budget-resolution = y
+|   |   |   |   |   mx-missile = n: republican (2.09/0.0)
+|   |   |   |   |   mx-missile = y: democrat (3.03/1.02)
+|   |   |   handicapped-infants = y: republican (3.12/0.01)
+|   |   synfuels-corporation-cutback = y: democrat (5.06/0.17)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Time taken to build model: 0.11 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         345               79.3103 %
+Incorrectly Classified Instances        90               20.6897 %
+Kappa statistic                          0.5693
+Mean absolute error                      0.3237
+Root mean squared error                  0.3985
+Relative absolute error                 65.7962 %
+Root relative squared error             80.3409 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 220  25 |   a = democrat
+  65 125 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         326               74.9425 %
+Incorrectly Classified Instances       109               25.0575 %
+Kappa statistic                          0.4818
+Mean absolute error                      0.3627
+Root mean squared error                  0.4363
+Relative absolute error                 73.7108 %
+Root relative squared error             87.9742 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 205  40 |   a = democrat
+  69 121 |   b = republican
+

@@ -1,0 +1,89 @@
+
+Options: -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 0 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.9200051811978915
+    Attrib handicapped-infants    2.321708575432862
+    Attrib water-project-cost-sharing    2.1909142606911054
+    Attrib adoption-of-the-budget-resolution    4.2943719140967875
+    Attrib physician-fee-freeze    -11.376761383656161
+    Attrib el-salvador-aid    -0.39602869071038954
+    Attrib religious-groups-in-schools    2.8036761065961717
+    Attrib anti-satellite-test-ban    -1.9830147852734965
+    Attrib aid-to-nicaraguan-contras    -0.6083476245464131
+    Attrib mx-missile    2.0646694884919055
+    Attrib immigration    -1.2288683147813493
+    Attrib synfuels-corporation-cutback    1.1074446292455578
+    Attrib education-spending    -0.4918735219992959
+    Attrib superfund-right-to-sue    4.473538603883065
+    Attrib crime    -1.8611386294987997
+    Attrib duty-free-exports    0.08496902498811866
+    Attrib export-administration-act-south-africa    -2.028614934583745
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.9193430750069442
+    Attrib handicapped-infants    -2.3212327800564703
+    Attrib water-project-cost-sharing    -2.190611495578683
+    Attrib adoption-of-the-budget-resolution    -4.293676501835738
+    Attrib physician-fee-freeze    11.375257582607157
+    Attrib el-salvador-aid    0.3955941575268163
+    Attrib religious-groups-in-schools    -2.8032160973485083
+    Attrib anti-satellite-test-ban    1.9829866289003708
+    Attrib aid-to-nicaraguan-contras    0.6080710174041618
+    Attrib mx-missile    -2.0642951617691283
+    Attrib immigration    1.2287132330379553
+    Attrib synfuels-corporation-cutback    -1.1072092137277045
+    Attrib education-spending    0.4918692069336617
+    Attrib superfund-right-to-sue    -4.472666779876089
+    Attrib crime    1.860669568454382
+    Attrib duty-free-exports    -0.08515809350591687
+    Attrib export-administration-act-south-africa    2.0282190754271725
+Class democrat
+    Input
+    Node 0
+Class republican
+    Input
+    Node 1
+
+
+Time taken to build model: 0.75 seconds
+Time taken to test model on training split: 0.02 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         343               98.5632 %
+Incorrectly Classified Instances         5                1.4368 %
+Kappa statistic                          0.9696
+Mean absolute error                      0.0234
+Root mean squared error                  0.126 
+Relative absolute error                  4.9586 %
+Root relative squared error             25.9205 %
+Total Number of Instances              348     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 212   3 |   a = democrat
+   2 131 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances          84               96.5517 %
+Incorrectly Classified Instances         3                3.4483 %
+Kappa statistic                          0.928 
+Mean absolute error                      0.0439
+Root mean squared error                  0.1844
+Relative absolute error                  9.2067 %
+Root relative squared error             37.5764 %
+Total Number of Instances               87     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51  1 |  a = democrat
+  2 33 |  b = republican
+

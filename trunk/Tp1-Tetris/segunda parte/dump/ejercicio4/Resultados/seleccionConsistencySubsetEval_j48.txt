@@ -1,0 +1,81 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+Imagen = y: spam (93.0/3.0)
+Imagen = n
+|   Saludos = y
+|   |   PalabrasInvalidas = y
+|   |   |   HTMLValues = y: spam (2.0)
+|   |   |   HTMLValues = n: noSpam (3.0/1.0)
+|   |   PalabrasInvalidas = n: noSpam (94.0/1.0)
+|   Saludos = n
+|   |   PalabrasValidas = y
+|   |   |   CaracteristicaMailNeg = y
+|   |   |   |   PalabrasVentas = y: spam (2.0)
+|   |   |   |   PalabrasVentas = n: noSpam (6.0/1.0)
+|   |   |   CaracteristicaMailNeg = n: noSpam (53.0/1.0)
+|   |   PalabrasValidas = n
+|   |   |   PalabrasVentas = y: spam (84.0/13.0)
+|   |   |   PalabrasVentas = n
+|   |   |   |   PalabrasInvalidas = y: spam (7.0/1.0)
+|   |   |   |   PalabrasInvalidas = n
+|   |   |   |   |   AttachmentExt = y: spam (5.0/1.0)
+|   |   |   |   |   AttachmentExt = n
+|   |   |   |   |   |   SubjectSpam = y
+|   |   |   |   |   |   |   HTMLValues = y: spam (3.0)
+|   |   |   |   |   |   |   HTMLValues = n
+|   |   |   |   |   |   |   |   Subject = y
+|   |   |   |   |   |   |   |   |   CaracteristicaMailNeg = y: spam (2.0)
+|   |   |   |   |   |   |   |   |   CaracteristicaMailNeg = n: noSpam (8.0/1.0)
+|   |   |   |   |   |   |   |   Subject = n: spam (9.0/2.0)
+|   |   |   |   |   |   SubjectSpam = n: noSpam (65.0/24.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Time taken to build model: 0 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         387               88.7615 %
+Incorrectly Classified Instances        49               11.2385 %
+Kappa statistic                          0.7751
+Mean absolute error                      0.1678
+Root mean squared error                  0.2897
+Relative absolute error                 33.5698 %
+Root relative squared error             57.9394 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 187  29 |   a = spam
+  20 200 |   b = noSpam
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         366               83.945  %
+Incorrectly Classified Instances        70               16.055  %
+Kappa statistic                          0.6788
+Mean absolute error                      0.2073
+Root mean squared error                  0.3503
+Relative absolute error                 41.4702 %
+Root relative squared error             70.0589 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 179  37 |   a = spam
+  33 187 |   b = noSpam
+

@@ -1,0 +1,61 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+SubjectNoSpam = y
+|   CaracteristicaMailNeg = y: n (14.0)
+|   CaracteristicaMailNeg = n
+|   |   PalabrasValidas = y: n (57.0/24.0)
+|   |   PalabrasValidas = n
+|   |   |   HTMLValues = y: n (11.0)
+|   |   |   HTMLValues = n: y (60.0/21.0)
+SubjectNoSpam = n: n (294.0/36.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         355               81.422  %
+Incorrectly Classified Instances        81               18.578  %
+Kappa statistic                          0.3852
+Mean absolute error                      0.2713
+Root mean squared error                  0.3683
+Relative absolute error                 77.1324 %
+Root relative squared error             87.9097 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  39  60 |   a = y
+  21 316 |   b = n
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         352               80.7339 %
+Incorrectly Classified Instances        84               19.2661 %
+Kappa statistic                          0.3651
+Mean absolute error                      0.277 
+Root mean squared error                  0.3775
+Relative absolute error                 78.7399 %
+Root relative squared error             90.1139 %
+Total Number of Instances              436     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  38  61 |   a = y
+  23 314 |   b = n
+

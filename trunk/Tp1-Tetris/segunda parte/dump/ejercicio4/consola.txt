@@ -1,0 +1,39 @@
+-Para correr el j48:
+
+java weka.classifiers.trees.J48 -t d:\Prueba1.arff -C 0.25 -M 2 > d:\j48TodosAtributos.txt 
+java weka.classifiers.trees.J48 -t d:\seleccionCfsSubsetEval.arff -C 0.25 -M 2 > d:\seleccionCfsSubsetEval_j48.txt 
+java weka.classifiers.trees.J48 -t d:\seleccionChiSquaredAttributeEval.arff -C 0.25 -M 2 > d:\seleccionChiSquaredAttributeEval_j48.txt 
+java weka.classifiers.trees.J48 -t d:\seleccionConsistencySubsetEval.arff -C 0.25 -M 2 > d:\seleccionConsistencySubsetEval_j48.txt 
+java weka.classifiers.trees.J48 -t d:\seleccionCfsSubsetEvalRandomSearch.arff -C 0.25 -M 2 > d:\CfsSubsetEvalRandomSearch_j48.txt 
+java weka.classifiers.trees.J48 -t d:\PrincipalComponents.arff -C 0.25 -M 2 > d:\PrincipalComponents_j48.txt 
+java weka.classifiers.trees.J48 -t d:\seleccionPropia.arff -C 0.25 -M 2 > d:\seleccionPropia_j48.txt 
+java weka.classifiers.trees.J48 -t d:\InfoGainAttributeEval.arff -C 0.25 -M 2 > d:\InfoGainAttributeEval_j48.txt 
+
+
+-Para sacar o reordenar uno o mas atributo:
+
+java weka.filters.unsupervised.attribute.Reorder -R lista_atributos -i d:\Prueba1.arff -o d:\nueva_prueba.arff
+
+donde lista_atributos puede ser, por ejemplo si tenes 15 atributos:
+
+1-15 (orden original de atributos, no cambia nada)
+2-15,1 (pasar el atributo 1 al final)
+1,3-15 (orden original pero saque el atributo 2)
+1,3-7,9-15 (ahora saque los atributos 2 y el 8)
+
+
+java weka.classifiers.lazy.IBk -t d:\Prueba1.arff -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\IBK_100.txt
+
+java weka.classifiers.lazy.IBk -t d:\seleccionCfsSubsetEval.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\seleccionCfsSubsetEval_IBK_100.txt
+
+java weka.classifiers.lazy.IBk -t d:\seleccionChiSquaredAttributeEval.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\ChiSquaredAttributeEval_IBK_100.txt
+
+java weka.classifiers.lazy.IBk -t d:\seleccionConsistencySubsetEval.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\seleccionConsistencySubsetEval_IBK_100.txt
+
+java weka.classifiers.lazy.IBk -t d:\seleccionCfsSubsetEvalRandomSearch.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\CfsSubsetEvalRandomSearch_IBK_100.txt
+
+java weka.classifiers.lazy.IBk -t d:\PrincipalComponents.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\PrincipalComponents_IBK_100.txt
+
+java weka.classifiers.lazy.IBk -t d:\seleccionPropia.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\seleccionPropia_IBK_100.txt
+java weka.classifiers.lazy.IBk -t d:\InfoGainAttributeEval.arff -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"" > d:\InfoGainAttributeEval_IBK_100.txt
+

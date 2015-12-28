@@ -1,0 +1,120 @@
+
+Options: -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 3 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -5.0620948741061165
+    Node 2    8.628286296700129
+    Node 3    5.109828211352989
+    Node 4    5.025984990698048
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    5.061573942273988
+    Node 2    -8.627475351809963
+    Node 3    -5.109313709707296
+    Node 4    -5.025445235599003
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.55541833191329
+    Attrib handicapped-infants    1.4177890031213596
+    Attrib water-project-cost-sharing    1.4985360539641404
+    Attrib adoption-of-the-budget-resolution    5.60505199496227
+    Attrib physician-fee-freeze    -7.250748386933746
+    Attrib el-salvador-aid    2.1926969589308447
+    Attrib religious-groups-in-schools    1.4595759329543858
+    Attrib anti-satellite-test-ban    -1.1406944748959855
+    Attrib aid-to-nicaraguan-contras    -1.8541891792712208
+    Attrib mx-missile    1.0076214706699291
+    Attrib immigration    -0.4929549181152701
+    Attrib synfuels-corporation-cutback    2.282242110844558
+    Attrib education-spending    -1.8070725183626315
+    Attrib superfund-right-to-sue    1.0539242410004155
+    Attrib crime    1.7057513117550829
+    Attrib duty-free-exports    -1.4703466909189058
+    Attrib export-administration-act-south-africa    -3.0476861218162923
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.4942180352523184
+    Attrib handicapped-infants    1.1933263504088796
+    Attrib water-project-cost-sharing    -0.2153590298785128
+    Attrib adoption-of-the-budget-resolution    -2.2035457168047667
+    Attrib physician-fee-freeze    -5.347252678586847
+    Attrib el-salvador-aid    -0.2564566065585582
+    Attrib religious-groups-in-schools    0.26040332517079945
+    Attrib anti-satellite-test-ban    2.8644017439738056
+    Attrib aid-to-nicaraguan-contras    0.11019879491750524
+    Attrib mx-missile    2.3566615984672787
+    Attrib immigration    -1.4736962376339733
+    Attrib synfuels-corporation-cutback    1.2045458606764734
+    Attrib education-spending    -1.6316337595931543
+    Attrib superfund-right-to-sue    -0.9678882521691052
+    Attrib crime    0.11918219802521379
+    Attrib duty-free-exports    1.211554820727694
+    Attrib export-administration-act-south-africa    1.6558155776293373
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.8716125284273913
+    Attrib handicapped-infants    -0.7139528854297108
+    Attrib water-project-cost-sharing    2.2666451420997777
+    Attrib adoption-of-the-budget-resolution    1.460984463373114
+    Attrib physician-fee-freeze    -5.1284886416025195
+    Attrib el-salvador-aid    -0.871253010979519
+    Attrib religious-groups-in-schools    2.1943863987850913
+    Attrib anti-satellite-test-ban    -4.061923194491805
+    Attrib aid-to-nicaraguan-contras    0.16267577864872004
+    Attrib mx-missile    2.3022785606289697
+    Attrib immigration    -0.9658417295733489
+    Attrib synfuels-corporation-cutback    -0.6924173550617188
+    Attrib education-spending    -0.415219623082474
+    Attrib superfund-right-to-sue    -0.747927710936774
+    Attrib crime    -1.0935020679010872
+    Attrib duty-free-exports    3.801902333510396
+    Attrib export-administration-act-south-africa    1.2167544826157322
+Class democrat
+    Input
+    Node 0
+Class republican
+    Input
+    Node 1
+
+
+Time taken to build model: 1.36 seconds
+Time taken to test model on training split: 0.02 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         345               99.1379 %
+Incorrectly Classified Instances         3                0.8621 %
+Kappa statistic                          0.9818
+Mean absolute error                      0.0145
+Root mean squared error                  0.077 
+Relative absolute error                  3.0727 %
+Root relative squared error             15.8433 %
+Total Number of Instances              348     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 213   2 |   a = democrat
+   1 132 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances          84               96.5517 %
+Incorrectly Classified Instances         3                3.4483 %
+Kappa statistic                          0.928 
+Mean absolute error                      0.0492
+Root mean squared error                  0.1821
+Relative absolute error                 10.3041 %
+Root relative squared error             37.1066 %
+Total Number of Instances               87     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51  1 |  a = democrat
+  2 33 |  b = republican
+

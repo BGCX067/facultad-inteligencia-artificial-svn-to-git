@@ -1,0 +1,63 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+physician-fee-freeze = n: democrat (255.94/4.59)
+physician-fee-freeze = y
+|   synfuels-corporation-cutback = n: republican (144.98/3.33)
+|   synfuels-corporation-cutback = y
+|   |   mx-missile = n
+|   |   |   adoption-of-the-budget-resolution = n: republican (21.89/3.31)
+|   |   |   adoption-of-the-budget-resolution = y
+|   |   |   |   anti-satellite-test-ban = n: democrat (4.59)
+|   |   |   |   anti-satellite-test-ban = y: republican (2.19)
+|   |   mx-missile = y: democrat (5.41/1.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         423               97.2414 %
+Incorrectly Classified Instances        12                2.7586 %
+Kappa statistic                          0.9418
+Mean absolute error                      0.0524
+Root mean squared error                  0.1576
+Relative absolute error                 11.0433 %
+Root relative squared error             32.36   %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 261   6 |   a = democrat
+   6 162 |   b = republican
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         419               96.3218 %
+Incorrectly Classified Instances        16                3.6782 %
+Kappa statistic                          0.9224
+Mean absolute error                      0.0629
+Root mean squared error                  0.1832
+Relative absolute error                 13.267  %
+Root relative squared error             37.6274 %
+Total Number of Instances              435     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 259   8 |   a = democrat
+   8 160 |   b = republican
+
